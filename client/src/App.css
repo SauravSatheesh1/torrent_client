@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "FuturaFont";
+  src: url("../public//fonts/FuturaLT.woff2") format("woff2"),
+    url("../public/fonts/FuturaLT.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "FuturaFont", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px; /* Adjust position as needed */
+  font-size: 15px;
+}
+
